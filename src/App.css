@@ -28,6 +28,7 @@
 @media (max-width: 600px) {
   .modal-content {
       padding: 20px;
+      width: 100%;
   }
 
   .input-group input {
