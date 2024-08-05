@@ -18,7 +18,7 @@
 }
 
 .modal-content {
-  width: 100%;
+  width: 800px;
   animation: fadeIn 0.3s ease-out forwards;
 }
 
