@@ -18,10 +18,25 @@
 }
 
 .modal-content {
-  width: 800px;
   animation: fadeIn 0.3s ease-out forwards;
 }
 
 .modal-exit {
   animation: fadeOut 0.3s ease-out forwards;
+}
+
+@media (max-width: 600px) {
+  .modal-content {
+      padding: 20px;
+  }
+
+  .input-group input {
+      padding: 15px;
+      font-size: 16px;
+  }
+
+  .btn {
+      padding: 15px 20px;
+      font-size: 16px;
+  }
 }
